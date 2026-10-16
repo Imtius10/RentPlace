@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Smoke test for the RentNest integration.
+ * Smoke test for the RentPlace integration.
  *
  *   node scripts/smoke.mjs                       # API at NEXT_PUBLIC_API_URL (or default prod)
  *   API_URL=http://localhost:5000 node scripts/smoke.mjs

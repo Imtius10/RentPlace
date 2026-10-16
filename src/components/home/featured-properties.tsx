@@ -69,7 +69,7 @@ export function FeaturedProperties() {
         ) : (
           <EmptyState
             title="No listings yet"
-            description="Be the first landlord to publish a property on RentNest."
+            description="Be the first landlord to publish a property on RentPlace."
             action={
               <Button asChild>
                 <Link href="/auth/register?role=landlord">List a property</Link>

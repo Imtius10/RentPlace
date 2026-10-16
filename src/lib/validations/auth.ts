@@ -15,7 +15,7 @@ export const registerSchema = z
       .max(72, "Password is too long"),
     confirmPassword: z.string(),
     role: z.enum(["TENANT", "LANDLORD"], {
-      errorMap: () => ({ message: "Pick how you'll use RentNest" }),
+      errorMap: () => ({ message: "Pick how you'll use RentPlace" }),
     }),
     terms: z
       .boolean()

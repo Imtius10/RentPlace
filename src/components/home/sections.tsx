@@ -116,7 +116,7 @@ export function HowItWorks() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6">
       <div className="mx-auto max-w-2xl text-center">
-        <p className="text-sm font-medium text-primary">How RentNest works</p>
+        <p className="text-sm font-medium text-primary">How RentPlace works</p>
         <h2 className="mt-1 text-2xl font-semibold tracking-tight sm:text-3xl">
           Three steps from search to keys
         </h2>

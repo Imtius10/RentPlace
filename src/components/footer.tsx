@@ -34,7 +34,7 @@ export function Footer() {
             </li>
             <li>
               <Link href="/about" className="hover:text-primary">
-                About RentNest
+                About RentPlace
               </Link>
             </li>
           </ul>
@@ -81,7 +81,7 @@ export function Footer() {
 
       <div className="border-t border-border/60 py-5">
         <p className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 text-xs text-muted-foreground sm:px-6">
-          <span>© {new Date().getFullYear()} RentNest. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} RentPlace. All rights reserved.</span>
           <span className="inline-flex items-center gap-1">
             Built with <Heart className="size-3.5 text-red-500" /> Next.js
           </span>

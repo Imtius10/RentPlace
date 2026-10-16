@@ -67,7 +67,7 @@ export default function AdminPropertiesPage() {
     <div className="space-y-6">
       <PageHeader
         title="All properties"
-        description="Moderate listings across every landlord on RentNest."
+        description="Moderate listings across every landlord on RentPlace."
       />
 
       <Card>

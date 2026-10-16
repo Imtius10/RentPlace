@@ -9,11 +9,11 @@ import {
 import {
   StatsBand,
   Testimonials,
-  WhyRentNest,
+  WhyRentPlace,
 } from "@/components/home/social-proof";
 
 export const metadata: Metadata = {
-  title: "RentNest — Find & List Rental Properties with Ease",
+  title: "RentPlace — Find & List Rental Properties with Ease",
 };
 
 export default function HomePage() {
@@ -23,7 +23,7 @@ export default function HomePage() {
       <Categories />
       <div id="featured-anchor" />
       <FeaturedProperties />
-      <WhyRentNest />
+      <WhyRentPlace />
       <HowItWorks />
       <StatsBand />
       <Testimonials />

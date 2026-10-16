@@ -162,7 +162,7 @@ export default function PayRequestPage() {
           <li className="flex gap-2">
             <ShieldCheck className="mt-0.5 size-4 shrink-0 text-primary" />
             Payments are processed by Stripe Checkout — card details never touch
-            RentNest.
+            RentPlace.
           </li>
           <li className="flex gap-2">
             <Lock className="mt-0.5 size-4 shrink-0 text-primary" />

@@ -26,7 +26,7 @@ export default function GlobalError({
         <div>
           <p style={{ fontSize: 48, margin: 0, fontWeight: 700 }}>500</p>
           <h1 style={{ fontSize: 22, margin: "12px 0 8px" }}>
-            RentNest hit an unexpected error
+            RentPlace hit an unexpected error
           </h1>
           <p style={{ opacity: 0.7, maxWidth: 420, margin: "0 auto", fontSize: 14 }}>
             {error.message || "Please try again in a moment."}

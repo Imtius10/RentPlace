@@ -1,4 +1,4 @@
-# RentNest API
+# RentPlace API
 
 A full-stack rental property marketplace backend built with Node.js, Express, TypeScript, Prisma, PostgreSQL, and Stripe.
 

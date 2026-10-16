@@ -147,7 +147,7 @@ export function LoginForm({ next }: { next: string | null }) {
       <DemoCredentials onSelect={fillDemo} />
 
       <p className="mt-6 text-center text-sm text-muted-foreground">
-        New to RentNest?{" "}
+        New to RentPlace?{" "}
         <Link
           href="/auth/register"
           className="font-medium text-primary hover:underline"

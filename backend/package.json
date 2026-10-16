@@ -1,7 +1,8 @@
 {
-  "name": "module_4",
+  "name": "rentplace-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "RentPlace REST API (Express + Prisma + Stripe)",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",

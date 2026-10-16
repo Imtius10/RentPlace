@@ -14,7 +14,7 @@ export function Logo({ className, href = "/", markOnly = false }: LogoProps) {
     <Link
       href={href}
       className={cn("group inline-flex items-center gap-2", className)}
-      aria-label="RentNest home"
+      aria-label="RentPlace home"
     >
       <span className="relative flex size-9 items-center justify-center rounded-xl bg-brand-gradient text-white shadow-sm shadow-emerald-600/25 transition-transform duration-300 group-hover:-rotate-6">
         <Home className="size-4.5" strokeWidth={2.4} />

@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "How RentNest connects tenants, landlords and admins.",
+  description: "How RentPlace connects tenants, landlords and admins.",
 };
 
 const VALUES = [
@@ -35,12 +35,12 @@ export default function AboutPage() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
       <section className="mx-auto max-w-3xl text-center">
-        <p className="text-sm font-medium text-primary">About RentNest</p>
+        <p className="text-sm font-medium text-primary">About RentPlace</p>
         <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">
           Rental housing, minus the friction
         </h1>
         <p className="mt-4 text-muted-foreground">
-          RentNest is a full-stack rental marketplace with three working roles.
+          RentPlace is a full-stack rental marketplace with three working roles.
           Tenants discover and request homes, landlords run their listings and
           approvals, and admins keep the whole platform honest.
         </p>

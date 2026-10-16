@@ -24,16 +24,16 @@ const instrumentSerif = Instrument_Serif({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "RentNest — Find & List Rental Properties with Ease",
-    template: "%s · RentNest",
+    default: "RentPlace — Find & List Rental Properties with Ease",
+    template: "%s · RentPlace",
   },
   description:
-    "RentNest is a modern rental marketplace. Tenants discover homes, landlords list properties and manage requests, and admins keep the platform safe.",
+    "RentPlace is a modern rental marketplace. Tenants discover homes, landlords list properties and manage requests, and admins keep the platform safe.",
   keywords: ["rental", "properties", "apartment", "rent", "landlord", "tenant"],
   openGraph: {
     type: "website",
-    siteName: "RentNest",
-    title: "RentNest — Find & List Rental Properties with Ease",
+    siteName: "RentPlace",
+    title: "RentPlace — Find & List Rental Properties with Ease",
     description:
       "Discover verified rentals, list your property and manage requests — all in one place.",
     url: SITE_URL,
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "RentNest — Find & List Rental Properties with Ease",
+    title: "RentPlace — Find & List Rental Properties with Ease",
     description:
       "Discover verified rentals, list your property and manage requests — all in one place.",
   },

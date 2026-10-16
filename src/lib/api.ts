@@ -128,7 +128,7 @@ export async function apiFetch<T>(
   } catch (error) {
     if ((error as Error).name === "AbortError") throw error;
     throw new ApiError(
-      "Couldn't reach the RentNest API. Check your connection or the API_URL used by the /api rewrite in next.config.ts and try again.",
+      "Couldn't reach the RentPlace API. Check your connection or the API_URL used by the /api rewrite in next.config.ts and try again.",
       0,
       error
     );

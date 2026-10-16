@@ -227,7 +227,7 @@ export function RegisterForm({ next, initialRole }: RegisterFormProps) {
             }
           />
           <label htmlFor="terms" className="text-xs leading-relaxed text-muted-foreground">
-            I agree to RentNest&apos;s terms and understand my role determines
+            I agree to RentPlace&apos;s terms and understand my role determines
             what I can do in the dashboard.
           </label>
         </div>

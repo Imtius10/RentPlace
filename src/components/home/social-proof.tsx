@@ -55,13 +55,13 @@ const FEATURES = [
   },
 ];
 
-export function WhyRentNest() {
+export function WhyRentPlace() {
   return (
     <section className="border-y border-border/60 bg-card/40 py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="mx-auto max-w-2xl text-center">
           <p className="inline-flex items-center gap-2 text-sm font-medium text-primary">
-            <span className="size-1.5 rounded-full bg-primary" /> Why RentNest
+            <span className="size-1.5 rounded-full bg-primary" /> Why RentPlace
           </p>
           <h2 className="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">
             Everything a rental needs, in one flow

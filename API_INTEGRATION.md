@@ -1,4 +1,4 @@
-# API Integration — RentNest Frontend
+# API Integration — RentPlace Frontend
 
 Everything the UI knows about the backend lives in `src/lib/` (client, session, queries, types). This document is the contract.
 

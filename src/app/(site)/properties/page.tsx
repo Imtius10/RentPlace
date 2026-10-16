@@ -8,7 +8,7 @@ import {
 export const metadata: Metadata = {
   title: "Browse rental properties",
   description:
-    "Search rental properties by location, type and budget on RentNest.",
+    "Search rental properties by location, type and budget on RentPlace.",
 };
 
 export default function PropertiesPage() {

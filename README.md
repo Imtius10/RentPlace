@@ -1,19 +1,22 @@
-# RentNest — Frontend
+# RentPlace
 
-A production-ready rental marketplace UI built with **Next.js (App Router)**, TypeScript, Tailwind CSS v4, shadcn/ui, Framer Motion, TanStack Query and Zustand. It talks to the RentNest REST API and ships role-based dashboards for **tenants**, **landlords** and **admins**, plus Stripe Checkout payments.
+A production-ready rental marketplace built with **Next.js (App Router)**, TypeScript, Tailwind CSS v4, shadcn/ui, Framer Motion, TanStack Query and Zustand. It talks to the RentPlace REST API and ships role-based dashboards for **tenants**, **landlords** and **admins**, plus Stripe Checkout payments.
+
+This repository holds both apps: the web frontend (`src/`) and the REST API (`backend/`).
 
 ## Repository layout
 
 ```
 .
 ├── src/               # Next.js app (frontend)
-├── public/            # static assets
 ├── scripts/smoke.mjs  # API + route smoke tests
-├── backend/           # RentNest REST API (Express + Prisma + Stripe)
+├── backend/           # RentPlace REST API (Express + Prisma + Stripe)
 │   ├── src/           # modules: user, properties, rentalRequest, payment, landlord, admin, review
 │   ├── prisma/        # schema, migrations, seed
 │   ├── api/index.js   # bundled serverless entry used by Vercel
 │   └── vercel.json
+├── .editorconfig      # editor formatting rules
+├── LICENSE            # MIT
 └── README.md / API_INTEGRATION.md
 ```
 
@@ -29,7 +32,7 @@ npm run dev                  # http://localhost:3000
 
 | Variable | Default | Purpose |
 | --- | --- | --- |
-| `NEXT_PUBLIC_API_URL` | `https://rent-nest-api-seven.vercel.app` | Base URL of the RentNest API (no trailing slash). Used as the target of the `/api/*` rewrite and for server-side fetches. |
+| `NEXT_PUBLIC_API_URL` | `https://rent-nest-api-seven.vercel.app` | Base URL of the RentPlace API (no trailing slash). Used as the target of the `/api/*` rewrite and for server-side fetches. |
 
 Local backend instead? Point it at `http://localhost:5000`.
 
@@ -122,6 +125,8 @@ Both apps deploy from this repository:
 | --- | --- | --- | --- |
 | Frontend | `rentnest` | https://rentnest-eta.vercel.app | repo root |
 | Backend (API) | `rent-nest-api` | https://rent-nest-api-seven.vercel.app | `backend/` |
+
+> The Vercel project names, the API hostname and the seeded demo e-mail addresses are live infrastructure identifiers — they stay as-is so existing deploys and logins keep working.
 
 ```bash
 vercel --prod                # frontend (run at the repo root)
