@@ -1,7 +1,20 @@
 node_modules
-# Keep environment variables out of version control
-.env
 
-/generated/prisma
-.vercel
+# build output
+dist/
+
+# local environment (only an example template may be committed)
 .env*
+!.env.example
+
+# generated prisma client
+/generated/prisma
+
+# vercel
+.vercel
+
+# vendored AI agent skills (installed locally, not source)
+.agents/
+.claude/
+.windsurf/
+skills-lock.json
